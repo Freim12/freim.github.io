@@ -1,0 +1,80 @@
+body{
+	font-family: Arial;
+	background-color: #565759;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+}
+.h1{
+	text-align: center;
+}
+
+.catalog{
+	text-align: center;
+}
+
+.catalog img{
+	width: 200px;
+	height: 200px;
+	display: block;
+	padding: 10px;
+}
+
+h1{
+		color: #d1149b;
+}
+
+h3{
+	color: #d1149b;
+}
+
+.mainmenu {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 50px;
+}
+
+.mainmenu:hover {
+    background-color: red;
+    }
+    
+.menu {
+    position: relative;
+    display: inline-block;
+}
+.menu-child {
+    display: none;
+    background-color: black;
+    max-width: 200px;
+    border-radius: 50px;
+    text-align: center;
+}
+.menu-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.menu:hover .menu-child {
+    display: block;
+}
+
+.menu-child a:hover {
+	background-color: #2113db;
+	color: #13db30;
+}
+
+.menu-child a:first-child {
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+.menu-child a:last-child {
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
